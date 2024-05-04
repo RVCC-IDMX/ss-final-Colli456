@@ -1,1 +1,74 @@
 /* main */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+$font: "Chakra Petch", sans-serif;
+
+// body font styling vars
+$body-font-size: 120%;
+$body-font-weight: 350;
+$body-italic-weight: 100;
+
+// display font styling vars
+$display-font: $font;
+$display-weight: 900;
+$display-spacing: 0.15em;
+$display-title-size: 4rem;
+
+:root {
+  --clr-primary-100: hsl(234, 100%, 94%);
+  --clr-primary-200: hsl(234, 100%, 85%);
+  --clr-primary-300: hsla(234, 100%, 39%, 1);
+  --clr-primary-400: hsla(234, 100%, 26%, 1);
+  --clr-primary-500: hsla(234, 100%, 16%, 1);
+
+  --clr-neutral-100: hsla(0, 0%, 100%, 1);
+  --clr-neutral-300: hsla(0, 0%, 50%, 1);
+  --clr-neutral-400: hsla(0, 0%, 40%, 1);
+  --clr-neutral-500: hsla(0, 0%, 60%, 1);
+  --clr-neutral-900: hsla(0, 0%, 10%, 1);
+}
+
+body {
+    font-family: $font;
+    background-color: var(--clr-primary-200);
+}
+
+svg {
+    max-width: 100%;
+}
+
+.link-github svg {
+    width: 15px;
+    height: 15px;
+}
+
+.container {
+    padding: 0 1em;
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10ch, 1fr));
+    list-style: none;
+    padding: 0 1em;
+    margin: 0;
+    grid-gap: 0.8rem;
+  }
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    z-index: 999;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    opacity: 0;
+  }
+  .skip-link:focus {
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 1;
+  }
