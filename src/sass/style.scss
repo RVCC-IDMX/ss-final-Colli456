@@ -91,6 +91,22 @@ $font3: "Mate SC";
 
 $font4: "Poetsen One";
 
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+$font5: "Black Ops one";
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+$font6: "Audiowide";
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
+
+$font7: "Protest Guerrilla";
+
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+$font8: "VT323";
+
 // body font styling vars
 $body-font-size: 120%;
 $body-font-weight: 350;
@@ -159,20 +175,52 @@ nav ul {
     
   }
 
-// #about:hover {
-//     background-color: var(--clr-neutral-300);
-//     color: var(--clr-neutral-900);
-//     font-family: $font2;
-// }
+#about:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font2;
+}
 
-// header:hover {
-//     background-color: var(--clr-primary-200);
-//     color: var(--clr-neutral-900);
-//     font-family: $font;
-// }
+header:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font;
+}
 
 nav:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font4;
+}
 
+#guidelines:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font3;
+}
+
+#contribute:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font5;
+}
+
+.profile:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font6;
+}
+
+#styles:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font7;
+}
+
+.page-footer:hover {
+    background-color: var(--clr-primary-200);
+    color: var(--clr-neutral-900);
+    font-family: $font8;
 }
 
 .skip-link {
