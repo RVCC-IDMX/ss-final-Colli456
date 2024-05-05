@@ -83,6 +83,14 @@ $font: "Chakra Petch";
 
 $font2: "Merienda";
 
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+
+$font3: "Mate SC";
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+$font4: "Poetsen One";
+
 // body font styling vars
 $body-font-size: 120%;
 $body-font-weight: 350;
@@ -157,11 +165,15 @@ nav ul {
 //     font-family: $font2;
 // }
 
-// header:hover, nav:hover {
+// header:hover {
 //     background-color: var(--clr-primary-200);
 //     color: var(--clr-neutral-900);
 //     font-family: $font;
 // }
+
+nav:hover {
+
+}
 
 .skip-link {
     position: absolute;
