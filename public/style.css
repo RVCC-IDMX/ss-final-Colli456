@@ -83,11 +83,11 @@ textarea:not([rows]) {
 }
 
 :root {
-  --clr-primary-100: hsl(234, 100%, 94%);
-  --clr-primary-200: hsl(234, 100%, 85%);
-  --clr-primary-300: hsla(234, 100%, 39%, 1);
-  --clr-primary-400: hsla(234, 100%, 26%, 1);
-  --clr-primary-500: hsla(234, 100%, 16%, 1);
+  --clr-primary-100: hsl(147, 50%, 47%);
+  --clr-primary-200: hsl(73, 77%, 43%);
+  --clr-primary-300: hsl(37, 100%, 92%);
+  --clr-primary-400: hsl(234, 100%, 85%);
+  --clr-primary-500: hsl(276, 100%, 85%);
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
   --clr-neutral-400: hsla(0, 0%, 40%, 1);
@@ -96,6 +96,7 @@ textarea:not([rows]) {
 }
 
 body {
+  background-color: var(--clr-primary-300);
   border: 6px solid black;
 }
 
@@ -134,33 +135,65 @@ nav ul {
   grid-gap: 0.8rem;
 }
 
+#about {
+  font-family: "Merienda";
+}
+
+header {
+  font-family: "Chakra Petch";
+}
+
+nav {
+  font-family: "Poetsen One";
+}
+
+#guidelines {
+  font-family: "Mate SC";
+}
+
+#contribute {
+  font-family: "Black Ops one";
+}
+
+.profile {
+  font-family: "Audiowide";
+}
+
+#styles {
+  font-family: "Protest Guerrilla";
+}
+
+.page-footer {
+  font-family: "VT323";
+}
+
 #about:hover {
-  background-color: var(--clr-primary-200);
-  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-primary-100);
   font-family: "Merienda";
 }
 
 header:hover {
-  background-color: var(--clr-primary-200);
+  background-color: var(--clr-primary-400);
   color: var(--clr-neutral-900);
   font-family: "Chakra Petch";
 }
 
 nav:hover {
-  background-color: var(--clr-primary-200);
+  background-color: var(--clr-primary-500);
   color: var(--clr-neutral-900);
   font-family: "Poetsen One";
 }
 
 #guidelines:hover {
-  background-color: var(--clr-primary-200);
+  background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-900);
   font-family: "Mate SC";
 }
 
 #contribute:hover {
-  background-color: var(--clr-primary-200);
-  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
   font-family: "Black Ops one";
 }
 
@@ -171,14 +204,14 @@ nav:hover {
 }
 
 #styles:hover {
-  background-color: var(--clr-primary-200);
+  background-color: var(--clr-neutral-100);
   color: var(--clr-neutral-900);
   font-family: "Protest Guerrilla";
 }
 
 .page-footer:hover {
-  background-color: var(--clr-primary-200);
-  color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-900);
+  color: var(--clr-neutral-100);
   font-family: "VT323";
 }
 

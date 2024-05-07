@@ -119,11 +119,16 @@ $display-spacing: 0.15em;
 $display-title-size: 4rem;
 
 :root {
-  --clr-primary-100: hsl(234, 100%, 94%);
-  --clr-primary-200: hsl(234, 100%, 85%);
-  --clr-primary-300: hsla(234, 100%, 39%, 1);
-  --clr-primary-400: hsla(234, 100%, 26%, 1);
-  --clr-primary-500: hsla(234, 100%, 16%, 1);
+  --clr-primary-100: hsl(147, 50%, 47%);
+  --clr-primary-200: hsl(73, 77%, 43%);
+  --clr-primary-300: hsl(37, 100%, 92%);
+  --clr-primary-400: hsl(234, 100%, 85%);
+  --clr-primary-500: hsl(276, 100%, 85%);
+
+  //--clr-primary-100: hsl(234, 100%, 94%);
+  //--clr-primary-300: hsla(234, 100%, 39%, 1);
+  //--clr-primary-400: hsla(234, 100%, 26%, 1);
+  //--clr-primary-500: hsla(234, 100%, 16%, 1);
 
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
@@ -134,7 +139,7 @@ $display-title-size: 4rem;
 
 body {
     //font-family: $font;
-    //background-color: var(--clr-primary-200);
+    background-color: var(--clr-primary-300);
     border: 6px solid black;
 }
 
@@ -175,33 +180,65 @@ nav ul {
     
   }
 
+#about {
+    font-family: $font2;
+}
+
+header {
+    font-family: $font;
+}
+
+nav {
+    font-family: $font4;
+}
+
+#guidelines {
+    font-family: $font3;
+}
+
+#contribute {
+    font-family: $font5;
+}
+
+.profile {
+    font-family: $font6;
+}
+
+#styles {
+    font-family: $font7;
+}
+
+.page-footer {
+    font-family: $font8;
+}
+
 #about:hover {
-    background-color: var(--clr-primary-200);
-    color: var(--clr-neutral-900);
+    background-color: var(--clr-neutral-900);
+    color: var(--clr-primary-100);
     font-family: $font2;
 }
 
 header:hover {
-    background-color: var(--clr-primary-200);
+    background-color: var(--clr-primary-400);
     color: var(--clr-neutral-900);
     font-family: $font;
 }
 
 nav:hover {
-    background-color: var(--clr-primary-200);
+    background-color: var( --clr-primary-500);
     color: var(--clr-neutral-900);
     font-family: $font4;
 }
 
 #guidelines:hover {
-    background-color: var(--clr-primary-200);
+    background-color: var(--clr-neutral-100);
     color: var(--clr-neutral-900);
     font-family: $font3;
 }
 
 #contribute:hover {
-    background-color: var(--clr-primary-200);
-    color: var(--clr-neutral-900);
+    background-color: var(--clr-neutral-900);
+    color: var(--clr-neutral-100);
     font-family: $font5;
 }
 
@@ -212,14 +249,14 @@ nav:hover {
 }
 
 #styles:hover {
-    background-color: var(--clr-primary-200);
+    background-color: var(--clr-neutral-100);
     color: var(--clr-neutral-900);
     font-family: $font7;
 }
 
 .page-footer:hover {
-    background-color: var(--clr-primary-200);
-    color: var(--clr-neutral-900);
+    background-color: var(--clr-neutral-900);
+    color: var(--clr-neutral-100);
     font-family: $font8;
 }
 
